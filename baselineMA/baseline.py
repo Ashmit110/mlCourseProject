@@ -210,11 +210,11 @@ def create_summary_graph(summary_df, results_dir):
                 plt.text(i - width/2, actual + 0.1, f'{actual:.2f}', ha='center', va='bottom', fontsize=9)
                 plt.text(i + width/2, pred + 0.1, f'{pred:.2f}', ha='center', va='bottom', fontsize=9)
             
-            # Add error percentages between bars
+            # Add error values between bars (absolute values instead of percentages)
             for i, (actual, pred) in enumerate(zip(actual_values, predicted_values)):
-                error_pct = ((pred - actual) / actual) * 100 if actual != 0 else float('inf')
-                color = 'red' if abs(error_pct) > 10 else 'green'
-                plt.text(i, min(actual, pred) - 0.8, f'{error_pct:.1f}%', ha='center', va='top', 
+                abs_error = abs(pred - actual)
+                color = 'red' if abs_error > 1 else 'green'  # Adjust threshold as needed
+                plt.text(i, min(actual, pred) - 0.8, f'{abs_error:.2f}', ha='center', va='top', 
                          color=color, fontweight='bold')
             
             plt.xlabel('Country')
@@ -255,11 +255,11 @@ def create_summary_graph(summary_df, results_dir):
     plt.grid(True, alpha=0.3)
     plt.axis('equal')
     
-    # Add diagonal bands to indicate 10% error bounds
+    # Add diagonal bands to indicate 1 ton error bounds (absolute instead of percentage)
     plt.fill_between([min_val, max_val], 
-                     [min_val*0.9, max_val*0.9], 
-                     [min_val*1.1, max_val*1.1], 
-                     color='green', alpha=0.1, label='±10% Error Band')
+                     [min_val-1, max_val-1], 
+                     [min_val+1, max_val+1], 
+                     color='green', alpha=0.1, label='±1 Ton Error Band')
     
     # Adjust legend
     if len(countries) > 8:
@@ -289,17 +289,13 @@ def calculate_errors(predictions):
                 if year in pred_dict:
                     predicted = pred_dict[year]
                     error = actual - predicted
-                    percent_error = (error / actual) * 100 if actual != 0 else float('inf')
                     abs_error = abs(error)
-                    abs_percent_error = abs(percent_error)
                     
                     method_errors[year] = {
                         'Actual': actual,
                         'Predicted': predicted,
                         'Error': error,
-                        'Absolute Error': abs_error,
-                        'Percent Error': percent_error,
-                        'Absolute Percent Error': abs_percent_error
+                        'Absolute Error': abs_error
                     }
             
             country_errors[method] = method_errors
@@ -323,28 +319,24 @@ def print_error_summary(error_metrics):
             print(f"  Method: {method}")
             
             total_abs_error = 0
-            total_abs_percent_error = 0
             count = 0
             
             for year, metrics in year_errors.items():
                 print(f"    Year {year}: Actual = {metrics['Actual']:.2f}, Predicted = {metrics['Predicted']:.2f}, "
-                      f"Error = {metrics['Error']:.2f}, Percent Error = {metrics['Percent Error']:.2f}%")
+                      f"Error = {metrics['Error']:.2f}, Absolute Error = {metrics['Absolute Error']:.2f}")
                 
                 total_abs_error += metrics['Absolute Error']
-                total_abs_percent_error += metrics['Absolute Percent Error']
                 count += 1
             
             if count > 0:
                 mean_abs_error = total_abs_error / count
-                mean_abs_percent_error = total_abs_percent_error / count
                 print(f"    Mean Absolute Error: {mean_abs_error:.2f}")
-                print(f"    Mean Absolute Percent Error: {mean_abs_percent_error:.2f}%")
                 
                 # Store for method ranking
                 if method not in method_overall_errors:
                     method_overall_errors[method] = {'total_error': 0, 'count': 0}
                 
-                method_overall_errors[method]['total_error'] += total_abs_percent_error
+                method_overall_errors[method]['total_error'] += total_abs_error
                 method_overall_errors[method]['count'] += count
     
     # Print overall method ranking
@@ -353,8 +345,8 @@ def print_error_summary(error_metrics):
     
     for method, data in method_overall_errors.items():
         if data['count'] > 0:
-            overall_mape = data['total_error'] / data['count']
-            print(f"{method}: Mean Absolute Percent Error = {overall_mape:.2f}%")
+            overall_mae = data['total_error'] / data['count']
+            print(f"{method}: Mean Absolute Error = {overall_mae:.2f}")
 
 def main():
     """Main function to run the SMA prediction model"""

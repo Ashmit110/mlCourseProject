@@ -1,0 +1,8 @@
+Best features:
+- Year
+- Avg Temperature (°C)
+- Sea Level Rise (mm)
+- Population
+- Renewable Energy (%)
+- Extreme Weather Events
+- Forest Area (%)

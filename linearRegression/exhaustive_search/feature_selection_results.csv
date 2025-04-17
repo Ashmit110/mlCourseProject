@@ -1,0 +1,128 @@
+features,metric_name,metric_value,num_features
+"['Year', 'Avg Temperature (°C)']",r2,-0.19048449860173733,2
+"['Year', 'Sea Level Rise (mm)']",r2,-0.14708402678094878,2
+"['Year', 'Rainfall (mm)']",r2,-0.20924272081036244,2
+"['Year', 'Population']",r2,-0.19117266111483233,2
+"['Year', 'Renewable Energy (%)']",r2,-0.14835800939210442,2
+"['Year', 'Extreme Weather Events']",r2,-0.17260029169786284,2
+"['Year', 'Forest Area (%)']",r2,-0.1747670441823843,2
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)']",r2,-0.14769425163515293,3
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)']",r2,-0.20780097247658968,3
+"['Year', 'Avg Temperature (°C)', 'Population']",r2,-0.1894907254718461,3
+"['Year', 'Avg Temperature (°C)', 'Renewable Energy (%)']",r2,-0.1434292099617902,3
+"['Year', 'Avg Temperature (°C)', 'Extreme Weather Events']",r2,-0.17482970548358567,3
+"['Year', 'Avg Temperature (°C)', 'Forest Area (%)']",r2,-0.17188151467495594,3
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)']",r2,-0.1602820684466526,3
+"['Year', 'Sea Level Rise (mm)', 'Population']",r2,-0.1403018353519374,3
+"['Year', 'Sea Level Rise (mm)', 'Renewable Energy (%)']",r2,-0.09628506133988579,3
+"['Year', 'Sea Level Rise (mm)', 'Extreme Weather Events']",r2,-0.12823279515227126,3
+"['Year', 'Sea Level Rise (mm)', 'Forest Area (%)']",r2,-0.12749662344700496,3
+"['Year', 'Rainfall (mm)', 'Population']",r2,-0.20981959874377698,3
+"['Year', 'Rainfall (mm)', 'Renewable Energy (%)']",r2,-0.17870879413747853,3
+"['Year', 'Rainfall (mm)', 'Extreme Weather Events']",r2,-0.1924085544699239,3
+"['Year', 'Rainfall (mm)', 'Forest Area (%)']",r2,-0.1942628668295705,3
+"['Year', 'Population', 'Renewable Energy (%)']",r2,-0.15028786613825673,3
+"['Year', 'Population', 'Extreme Weather Events']",r2,-0.17294046982079259,3
+"['Year', 'Population', 'Forest Area (%)']",r2,-0.17512122008975095,3
+"['Year', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.12766950717772008,3
+"['Year', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.1313208524091869,3
+"['Year', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.15595366770879227,3
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)']",r2,-0.15950412738313835,4
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Population']",r2,-0.14026653233336583,4
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Renewable Energy (%)']",r2,-0.09214719380551895,4
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Extreme Weather Events']",r2,-0.13219999483149403,4
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Forest Area (%)']",r2,-0.12585535951560978,4
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Population']",r2,-0.20701736122740466,4
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Renewable Energy (%)']",r2,-0.1738530260981399,4
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Extreme Weather Events']",r2,-0.1946834862480662,4
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Forest Area (%)']",r2,-0.19072937194932305,4
+"['Year', 'Avg Temperature (°C)', 'Population', 'Renewable Energy (%)']",r2,-0.14449275331631295,4
+"['Year', 'Avg Temperature (°C)', 'Population', 'Extreme Weather Events']",r2,-0.1741320816260883,4
+"['Year', 'Avg Temperature (°C)', 'Population', 'Forest Area (%)']",r2,-0.17143696740203307,4
+"['Year', 'Avg Temperature (°C)', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.12654015021221587,4
+"['Year', 'Avg Temperature (°C)', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.1237340340960269,4
+"['Year', 'Avg Temperature (°C)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.15633107703784388,4
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population']",r2,-0.15190294242221913,4
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Renewable Energy (%)']",r2,-0.1205289433997434,4
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Extreme Weather Events']",r2,-0.14364135570109005,4
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Forest Area (%)']",r2,-0.14169294761233497,4
+"['Year', 'Sea Level Rise (mm)', 'Population', 'Renewable Energy (%)']",r2,-0.09442207778919376,4
+"['Year', 'Sea Level Rise (mm)', 'Population', 'Extreme Weather Events']",r2,-0.12203700547137841,4
+"['Year', 'Sea Level Rise (mm)', 'Population', 'Forest Area (%)']",r2,-0.12129227575320978,4
+"['Year', 'Sea Level Rise (mm)', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.07507305617379023,4
+"['Year', 'Sea Level Rise (mm)', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.07574419073859096,4
+"['Year', 'Sea Level Rise (mm)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.10854086265689245,4
+"['Year', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)']",r2,-0.1820306927822366,4
+"['Year', 'Rainfall (mm)', 'Population', 'Extreme Weather Events']",r2,-0.19374552502977904,4
+"['Year', 'Rainfall (mm)', 'Population', 'Forest Area (%)']",r2,-0.19598585908341426,4
+"['Year', 'Rainfall (mm)', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.1594413319406951,4
+"['Year', 'Rainfall (mm)', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.16372942750165032,4
+"['Year', 'Rainfall (mm)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.17721778730034932,4
+"['Year', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.12999328115307973,4
+"['Year', 'Population', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.1334944541984031,4
+"['Year', 'Population', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.1567934288565085,4
+"['Year', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.11052044195877131,4
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population']",r2,-0.1500361163445887,5
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Renewable Energy (%)']",r2,-0.11533080090961723,5
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Extreme Weather Events']",r2,-0.14689195505844221,5
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Forest Area (%)']",r2,-0.13855513659932672,5
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Population', 'Renewable Energy (%)']",r2,-0.08989653850833124,5
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Population', 'Extreme Weather Events']",r2,-0.12511241258589423,5
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Population', 'Forest Area (%)']",r2,-0.11908851524091668,5
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.07502597117089582,5
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.06857361524300654,5
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.11048631280905052,5
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)']",r2,-0.17580415630490065,5
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Population', 'Extreme Weather Events']",r2,-0.19440448752918438,5
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Population', 'Forest Area (%)']",r2,-0.19110990758974422,5
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.15909529077318463,5
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.15617236872296547,5
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.17756232908538006,5
+"['Year', 'Avg Temperature (°C)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.12783394144309157,5
+"['Year', 'Avg Temperature (°C)', 'Population', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.1250028935418257,5
+"['Year', 'Avg Temperature (°C)', 'Population', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.15617308554395137,5
+"['Year', 'Avg Temperature (°C)', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.10693106806307218,5
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)']",r2,-0.11764511340815331,5
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Extreme Weather Events']",r2,-0.1362680243101917,5
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Forest Area (%)']",r2,-0.13454893580654326,5
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.1012394698741459,5
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.10131874843439026,5
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.12482059752348929,5
+"['Year', 'Sea Level Rise (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.07378452306152128,5
+"['Year', 'Sea Level Rise (mm)', 'Population', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.07433494207719415,5
+"['Year', 'Sea Level Rise (mm)', 'Population', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.10291840353447212,5
+"['Year', 'Sea Level Rise (mm)', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.054380128594037735,5
+"['Year', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.16339724426242452,5
+"['Year', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.16788709269600033,5
+"['Year', 'Rainfall (mm)', 'Population', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.17968676749398815,5
+"['Year', 'Rainfall (mm)', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.14423978671102078,5
+"['Year', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.11307008136283403,5
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)']",r2,-0.11168685337071493,6
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Extreme Weather Events']",r2,-0.13811681539769638,6
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Forest Area (%)']",r2,-0.1303842681800893,6
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.10089684570114676,6
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.0929476946862473,6
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.1259086943527028,6
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.07311507577975962,6
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Population', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.06682733009968822,6
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Population', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.10404742272159506,6
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.05153681426242751,6
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.16144340992387063,6
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.15888634739308238,6
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Population', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.17843004444816257,6
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.14135958792043324,6
+"['Year', 'Avg Temperature (°C)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.10841474052365618,6
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.09930351417416938,6
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.09950431700501516,6
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.11867553840383693,6
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.08177486932972333,6
+"['Year', 'Sea Level Rise (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.05353589430708361,6
+"['Year', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.14900212963562054,6
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events']",r2,-0.09787648154075934,7
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Forest Area (%)']",r2,-0.0903978792822695,7
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.11841349131923096,7
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.07846533040157566,7
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.050116307669688887,7
+"['Year', 'Avg Temperature (°C)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.1444434843394311,7
+"['Year', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.0808898947354415,7
+"['Year', 'Avg Temperature (°C)', 'Sea Level Rise (mm)', 'Rainfall (mm)', 'Population', 'Renewable Energy (%)', 'Extreme Weather Events', 'Forest Area (%)']",r2,-0.07651486089122761,8
