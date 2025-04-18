@@ -1,0 +1,104 @@
+==================================================
+CO2 EMISSIONS PREDICTION MODEL SUMMARY
+==================================================
+
+Date generated: 2025-04-18 13:21:16
+Country encoding used: Yes
+
+DATA SUMMARY:
+--------------------------------------------------
+Total rows: 340
+Training rows: 310
+Testing rows: 30
+Features used: 8
+
+FEATURE PREPROCESSING:
+--------------------------------------------------
+Feature normalization: Applied (StandardScaler)
+Mean values used for normalization (first 5):
+- Year: 2010.5000
+- Avg Temperature (°C): 19.7741
+- Rainfall (mm): 1706.3480
+- Population: 686246148.2133
+- Renewable Energy (%): 27.7102
+Standard deviations used for normalization (first 5):
+- Year: 6.4191
+- Avg Temperature (°C): 6.0429
+- Rainfall (mm): 509.4197
+- Population: 292949283.3448
+- Renewable Energy (%): 9.2483
+
+MODEL HYPERPARAMETERS:
+--------------------------------------------------
+objective: reg:squarederror
+base_score: None
+booster: None
+callbacks: None
+colsample_bylevel: None
+colsample_bynode: None
+colsample_bytree: 0.6
+device: None
+early_stopping_rounds: None
+enable_categorical: False
+eval_metric: None
+feature_types: None
+feature_weights: None
+gamma: 2
+grow_policy: None
+importance_type: None
+interaction_constraints: None
+learning_rate: 0.01
+max_bin: None
+max_cat_threshold: None
+max_cat_to_onehot: None
+max_delta_step: None
+max_depth: 5
+max_leaves: None
+min_child_weight: 3
+missing: nan
+monotone_constraints: None
+multi_strategy: None
+n_estimators: 100
+n_jobs: None
+num_parallel_tree: None
+random_state: 42
+reg_alpha: 1.0
+reg_lambda: 0.5
+sampling_method: None
+scale_pos_weight: None
+subsample: 0.6
+tree_method: None
+validate_parameters: None
+verbosity: None
+
+MODEL PERFORMANCE:
+--------------------------------------------------
+Training Metrics:
+MAE: 2.7645
+MSE: 11.9625
+RMSE: 3.4587
+R²: 0.2938
+
+Testing Metrics:
+MAE: 2.4807
+MSE: 9.7902
+RMSE: 3.1289
+R²: -0.2722
+
+TOP 5 MOST IMPORTANT FEATURES:
+--------------------------------------------------
+Forest Area (%): 0.1690
+Extreme Weather Events: 0.1362
+Renewable Energy (%): 0.1300
+Country_Code: 0.1234
+Population: 0.1180
+
+GENERATED ARTIFACTS:
+--------------------------------------------------
+1. Data summary (data_summary.csv)
+2. Missing values report (missing_values.csv)
+3. Feature scaling information (feature_scaling_info.csv)
+4. Feature importance ranking (feature_importance_optimized.csv)
+5. Test predictions (test_predictions_optimized.csv)
+6. Trained model (xgboost_co2_model_optimized.json)
+7. Various visualizations (PNG files)

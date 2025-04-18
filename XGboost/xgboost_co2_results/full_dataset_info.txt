@@ -1,0 +1,42 @@
+Dataset Shape: (340, 10)
+
+Data Types:
+Country                         object
+Year                             int64
+Avg Temperature (°C)           float64
+Sea Level Rise (mm)            float64
+Rainfall (mm)                  float64
+Population                     float64
+Renewable Energy (%)           float64
+Extreme Weather Events         float64
+Forest Area (%)                float64
+CO2 Emissions (Tons/Capita)    float64
+dtype: object
+
+Sample Data:
+     Country  Year  ...  Forest Area (%)  CO2 Emissions (Tons/Capita)
+0  Argentina  2000  ...            18.40                         3.90
+1  Argentina  2001  ...            23.20                        12.60
+2  Argentina  2002  ...            41.00                        15.10
+3  Argentina  2003  ...            17.20                        16.50
+4  Argentina  2004  ...            43.50                         5.30
+5  Argentina  2005  ...            39.87                         9.55
+6  Argentina  2006  ...            46.88                        12.08
+7  Argentina  2007  ...            58.70                        19.90
+8  Argentina  2008  ...            36.24                         8.80
+9  Argentina  2009  ...            46.07                         6.93
+
+[10 rows x 10 columns]
+
+Descriptive Statistics:
+              Year  ...  CO2 Emissions (Tons/Capita)
+count   340.000000  ...                   340.000000
+mean   2011.558824  ...                    10.488147
+std       7.022892  ...                     4.039351
+min    2000.000000  ...                     0.800000
+25%    2005.000000  ...                     7.800000
+50%    2012.000000  ...                    10.590000
+75%    2018.000000  ...                    13.000000
+max    2023.000000  ...                    19.900000
+
+[8 rows x 9 columns]

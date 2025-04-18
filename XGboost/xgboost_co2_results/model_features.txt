@@ -1,0 +1,9 @@
+Features used in model:
+- Year
+- Avg Temperature (°C)
+- Rainfall (mm)
+- Population
+- Renewable Energy (%)
+- Extreme Weather Events
+- Forest Area (%)
+- Country_Code

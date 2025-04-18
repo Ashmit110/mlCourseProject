@@ -1,0 +1,15 @@
+{
+    "n_estimators": 300,
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "subsample": 0.7,
+    "colsample_bytree": 0.7,
+    "gamma": 1,
+    "reg_alpha": 0.5,
+    "reg_lambda": 1,
+    "min_child_weight": 5,
+    "objective": "reg:squarederror",
+    "booster": "gbtree",
+    "tree_method": "hist",
+    "random_state": 42
+}
