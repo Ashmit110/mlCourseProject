@@ -1,9 +1,10 @@
-The identification of the most important predictors for CO₂ emissions can be approached using various machine learning models, each offering a unique lens for interpretation. In our analysis, we used both a Multiple Linear Regression model and a Neural Network model to explore predictor importance.
+The identification of the most important predictors for CO₂ emissions can be approached using various machine learning models, each having its own interpretation. In our analysis, we used both a Multiple Linear Regression model and a Neural Network model to explore predictor importance.
 
 Linear Regression Insights:
 
-Using the coefficients from the linear regression model (visualized in the attached bar plot), we observed the following key predictors:
-	•	Renewable Energy (%) had the highest positive coefficient, suggesting that increased renewable energy usage correlates with higher reported CO₂ emissions. This might appear counterintuitive but could reflect reverse causality — i.e., countries with higher emissions are investing more in renewables.
+Using the coefficients from the linear regression model (visualized in the feature imporatance bar plot), we observed the following key predictors:
+
+	•	Renewable Energy (%) had the highest positive coefficient, suggesting that increased renewable energy usage correlates with higher reported CO₂ emissions. This might appear counterintuitive but could reflect reverse causality — i.e., countries with higher emissions are investing more in renewables. 
 	•	Temperature (°C) also had a significant positive coefficient, indicating warmer temperatures are associated with higher emissions.
 	•	Rainfall (mm) and Sea Level Rise (mm) showed negative coefficients, potentially suggesting that areas with more rainfall or rising sea levels may be reducing emissions or experiencing changes due to other climate-related factors.
 
@@ -18,7 +19,7 @@ We also conducted a gradient-based sensitivity analysis to interpret feature imp
 	4.	Avg Temperature (°C)
 	5.	Forest Area (%)
 
-These results align partially with the linear model — especially regarding Renewable Energy (%), Temperature, and Rainfall — but add Population as a strong driver. This makes sense, as more populated regions are likely to have higher energy demands and emissions.
+These results align partially with the linear model — especially regarding Renewable Energy (%), Temperature, and Rainfall — but add Population as a strong driver which makes sense as more populated regions are likely to have higher energy demands and emissions.
 
 Final Interpretation:
 
@@ -33,4 +34,31 @@ However, it’s crucial to distinguish between importance and actionability:
 	•	Importance reflects predictive power in the model.
 	•	Actionability reflects how directly a predictor can be influenced or managed to impact emissions.
 
-Also, some predictors may represent effects rather than causes of emissions (e.g., rising temperature being an effect of emissions rather than a cause).
+We can interpret the above predictors as the following:
+
+	1.	Renewable Energy (%)
+
+	•	Actionability: Highly actionable. Increasing renewable energy directly reduces dependence on fossil fuels, lowering CO₂ emissions.
+	•	Interpretation: Countries with more renewables tend to emit less CO₂ due to cleaner energy sources.
+
+	2.	Population
+
+	•	Actionability: Less actionable directly. Population growth drives higher energy consumption, transportation, and industrial activity.
+	•	Interpretation: A larger population generally means more emissions, though emissions per capita may vary.
+
+	3.	Rainfall (mm)
+
+	•	Actionability: Not actionable. Likely an effect or proxy for other climate-related variables.
+	•	Interpretation: Rainfall patterns may be correlated with industrial regions or impacted by climate change resulting from emissions.
+
+	4.	Average Temperature (°C)
+	
+	•	Actionability: Not directly actionable—it’s a consequence of emissions.
+	•	Interpretation: Higher CO₂ emissions contribute to global warming, so temperature rises are more likely to be an effect rather than a cause.
+
+	5.	Forest Area (%)
+
+	•	Actionability: Highly actionable via reforestation policies.
+	•	Interpretation: Forests act as carbon sinks, so a decrease in forest area can worsen emissions. Preservation can help reduce atmospheric CO₂.
+
+Clearly, some predictors may represent effects (e.g. temperature and rainfall) rather than causes of emissions (e.g., forest area).
