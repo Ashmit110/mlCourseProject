@@ -1,0 +1,36 @@
+The identification of the most important predictors for CO₂ emissions can be approached using various machine learning models, each offering a unique lens for interpretation. In our analysis, we used both a Multiple Linear Regression model and a Neural Network model to explore predictor importance.
+
+Linear Regression Insights:
+
+Using the coefficients from the linear regression model (visualized in the attached bar plot), we observed the following key predictors:
+	•	Renewable Energy (%) had the highest positive coefficient, suggesting that increased renewable energy usage correlates with higher reported CO₂ emissions. This might appear counterintuitive but could reflect reverse causality — i.e., countries with higher emissions are investing more in renewables.
+	•	Temperature (°C) also had a significant positive coefficient, indicating warmer temperatures are associated with higher emissions.
+	•	Rainfall (mm) and Sea Level Rise (mm) showed negative coefficients, potentially suggesting that areas with more rainfall or rising sea levels may be reducing emissions or experiencing changes due to other climate-related factors.
+
+It’s important to note that coefficients in linear regression are sensitive to units, so a variable with a small coefficient might still have a large impact if it varies widely.
+
+Neural Network Insights:
+
+We also conducted a gradient-based sensitivity analysis to interpret feature importance in a neural network model trained on the same data. The top five features ranked by gradient magnitude were:
+	1.	Population
+	2.	Renewable Energy (%)
+	3.	Rainfall (mm)
+	4.	Avg Temperature (°C)
+	5.	Forest Area (%)
+
+These results align partially with the linear model — especially regarding Renewable Energy (%), Temperature, and Rainfall — but add Population as a strong driver. This makes sense, as more populated regions are likely to have higher energy demands and emissions.
+
+Final Interpretation:
+
+While there is no single “perfect” answer, combining both model insights, we find that the most consistently important predictors across models are:
+	•	Renewable Energy (%)
+	•	Rainfall (mm)
+	•	Average Temperature (°C)
+	•	Population
+	•	Forest Area (%)
+
+However, it’s crucial to distinguish between importance and actionability:
+	•	Importance reflects predictive power in the model.
+	•	Actionability reflects how directly a predictor can be influenced or managed to impact emissions.
+
+Also, some predictors may represent effects rather than causes of emissions (e.g., rising temperature being an effect of emissions rather than a cause).
